@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29025.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "liblua", "liblua\liblua.vcxproj", "{E2AE4B73-2028-4502-9352-A2E490330EEE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lua", "lua\lua.vcxproj", "{FC481390-4D93-4DA4-9EB3-8ED26D1396BA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2AE4B73-2028-4502-9352-A2E490330EEE} = {E2AE4B73-2028-4502-9352-A2E490330EEE}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "luac", "luac\luac.vcxproj", "{17D7E163-DA93-4FAF-B08C-4CEDF079CBF5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "doc", "doc", "{3AE073E5-4369-411C-8794-9BBC1BA462B9}"
+	ProjectSection(SolutionItems) = preProject
+		doc\contents.html = doc\contents.html
+		doc\index.css = doc\index.css
+		doc\logo.gif = doc\logo.gif
+		doc\lua.1 = doc\lua.1
+		doc\lua.css = doc\lua.css
+		doc\luac.1 = doc\luac.1
+		doc\manual.css = doc\manual.css
+		doc\manual.html = doc\manual.html
+		doc\osi-certified-72x60.png = doc\osi-certified-72x60.png
+		doc\readme.html = doc\readme.html
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Debug|x64 = Debug|x64
+		Release|Win32 = Release|Win32
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E2AE4B73-2028-4502-9352-A2E490330EEE}.Debug|Win32.ActiveCfg = Debug|Win32
+		{E2AE4B73-2028-4502-9352-A2E490330EEE}.Debug|Win32.Build.0 = Debug|Win32
+		{E2AE4B73-2028-4502-9352-A2E490330EEE}.Debug|x64.ActiveCfg = Debug|x64
+		{E2AE4B73-2028-4502-9352-A2E490330EEE}.Debug|x64.Build.0 = Debug|x64
+		{E2AE4B73-2028-4502-9352-A2E490330EEE}.Release|Win32.ActiveCfg = Release|Win32
+		{E2AE4B73-2028-4502-9352-A2E490330EEE}.Release|Win32.Build.0 = Release|Win32
+		{E2AE4B73-2028-4502-9352-A2E490330EEE}.Release|x64.ActiveCfg = Release|x64
+		{E2AE4B73-2028-4502-9352-A2E490330EEE}.Release|x64.Build.0 = Release|x64
+		{FC481390-4D93-4DA4-9EB3-8ED26D1396BA}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FC481390-4D93-4DA4-9EB3-8ED26D1396BA}.Debug|Win32.Build.0 = Debug|Win32
+		{FC481390-4D93-4DA4-9EB3-8ED26D1396BA}.Debug|x64.ActiveCfg = Debug|x64
+		{FC481390-4D93-4DA4-9EB3-8ED26D1396BA}.Debug|x64.Build.0 = Debug|x64
+		{FC481390-4D93-4DA4-9EB3-8ED26D1396BA}.Release|Win32.ActiveCfg = Release|Win32
+		{FC481390-4D93-4DA4-9EB3-8ED26D1396BA}.Release|Win32.Build.0 = Release|Win32
+		{FC481390-4D93-4DA4-9EB3-8ED26D1396BA}.Release|x64.ActiveCfg = Release|x64
+		{FC481390-4D93-4DA4-9EB3-8ED26D1396BA}.Release|x64.Build.0 = Release|x64
+		{17D7E163-DA93-4FAF-B08C-4CEDF079CBF5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{17D7E163-DA93-4FAF-B08C-4CEDF079CBF5}.Debug|Win32.Build.0 = Debug|Win32
+		{17D7E163-DA93-4FAF-B08C-4CEDF079CBF5}.Debug|x64.ActiveCfg = Debug|x64
+		{17D7E163-DA93-4FAF-B08C-4CEDF079CBF5}.Debug|x64.Build.0 = Debug|x64
+		{17D7E163-DA93-4FAF-B08C-4CEDF079CBF5}.Release|Win32.ActiveCfg = Release|Win32
+		{17D7E163-DA93-4FAF-B08C-4CEDF079CBF5}.Release|Win32.Build.0 = Release|Win32
+		{17D7E163-DA93-4FAF-B08C-4CEDF079CBF5}.Release|x64.ActiveCfg = Release|x64
+		{17D7E163-DA93-4FAF-B08C-4CEDF079CBF5}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {699A9DEA-8BE0-4D52-A777-FAF3AB1ECD68}
+	EndGlobalSection
+EndGlobal
