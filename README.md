@@ -1,7 +1,7 @@
-lua-53-u8w
+lua53-u8w
 ======
 
-[Lua](https://www.lua.org/) 5.3.5 with UTF-8 Wrapper for Windows
+Lua 5.3.5 with UTF-8 Wrapper for Windows
 
 Converting from UTF-8 to UTF-16(LE) and vice versa at Windows API and C runtime functions.
 
