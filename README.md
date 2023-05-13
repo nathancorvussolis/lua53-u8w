@@ -11,4 +11,4 @@ Released under the MIT license
 
 Copyright (C) 1994-2020 Lua.org, PUC-Rio.
 
-Copyright (C) 2014-2020 SASAKI Nobuyuki
+Copyright (C) 2014-2023 SASAKI Nobuyuki

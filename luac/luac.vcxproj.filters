@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="stdafx.h">
+    <ClInclude Include="pch.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="..\liblua\lapi.h">
@@ -101,7 +101,7 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="stdafx.c">
+    <ClCompile Include="pch.c">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="luac.c">

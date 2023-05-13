@@ -505,11 +505,12 @@ static int read_line (lua_State *L, FILE *f, int chop) {
       }
     }
     else {
-#endif
+      while (i < LUAL_BUFFERSIZE && (c = l_getc(f)) != EOF && c != '\n')
+        buff[i++] = c;
+    }
+#else
     while (i < LUAL_BUFFERSIZE && (c = l_getc(f)) != EOF && c != '\n')
       buff[i++] = c;
-#ifdef U8W_H
-    }
 #endif
     l_unlockfile(f);
     luaL_addsize(&b, i);
