@@ -220,11 +220,7 @@ LUALIB_API void (luaL_openlib) (lua_State *L, const char *libname,
 
 /* print a string */
 #if !defined(lua_writestring)
-#ifdef U8W_H
-#define lua_writestring(s,l)   fprintf(stdout, "%s", s)
-#else
 #define lua_writestring(s,l)   fwrite((s), sizeof(char), (l), stdout)
-#endif
 #endif
 
 /* print a newline and flush the output */
